@@ -1,0 +1,53 @@
+
+ 
+      
+<div class="body">
+  <div id="login-box"> 
+     <div class="left-box">
+        <form>
+      
+         
+  <h1><b>Sign Up</b></h1><br>
+    
+  <div class ="form-group">
+   <b>Name:</b><br>
+      
+      <input type="text" [(ngModel)]="user.name" nameholder="Name" name="Name" class="form-control" id="name"> 
+   </div> 
+
+      <div class ="form-group">
+    <b>EmployeeID:</b><br>
+      <input type="text" [(ngModel)]="user.empid" nameholder="EmployeeID" name="EmployeeID" class="form-control" id="EmployeeID"> 
+     
+    </div> 
+     
+      <div class ="form-group">
+     <b>Date Of Joining:</b><br>
+      <input type="text" [(ngModel)]="user.dateOfJoining" nameholder="DateOfJoining" name="DateOfJoining" class="form-control" id="DateOfJoining"> 
+      
+         </div>
+
+      <div class ="form-group">
+     <b>Email:</b><br>
+       <input type="text" [(ngModel)]="user.email" nameholder="Email" name="Email" class="form-control" id="Email"> 
+         </div>
+      
+       <div class ="form-group">
+     <b>Password:</b><br>
+       <input type="password" [(ngModel)]="user.password" nameholder="Password" name="Password" class="form-control" id="Password"> 
+      
+       </div>
+  
+       
+       
+       <input type="submit" (click)="createUser()"value="Sign-Up"/>
+       
+        
+      <p><br><b>Already Registerd?</b><a routerLink="/demo2" ><b>  SignIn</b></a></p>
+      
+   </form>
+       
+      
+    </div>
+  </div>
+</div>

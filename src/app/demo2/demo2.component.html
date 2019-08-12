@@ -1,0 +1,29 @@
+
+<div class="background">
+  <div class="body">
+<div class="signin">    
+
+    <form>  
+   <h2 style="color:black">Sign In</h2>
+   <div class ="form-group">
+   <br><b>EmployeeID:</b><br>
+   <b> <input type ="text"[(ngModel)]="log.empid" class="form-control" name="EmployeeID" id="EmployeeID"/></b>
+   </div>
+   <div class ="form-group">
+   <b>Password:</b><br>
+   <b> <input type ="password" [(ngModel)]="log.password" class="form-control" name="password" id="password"/></b><br>
+  </div>
+    <input type="submit" value="Sign In"  (click)="loginIn()" style="color:white"><br>
+    <br>New User? <a routerLink="/demo1" style="color:blue">SignUp</a>
+  
+  </form>
+
+</div>
+</div>
+</div>
+
+
+
+  
+
+

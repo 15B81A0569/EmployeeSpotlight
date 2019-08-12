@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  .body{
+    text-align: left;
+  }   
+  .back{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400");
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    margin: 0px;
+    background-repeat: no-repeat;
+  }
+  .subdiv
+  {
+    
+    margin-left:2%;
+  }
+   
+  .field{
+    
+    text-align: left;
+  }
+  .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  
+  }
+  
+  .btn:hover {
+    background-color: lightgrey;
+  }
+   
+  .o{
+    margin-left: 50%;
+    
+  }
+  .p{
+    margin-left: 30px;
+   }
+   .q{
+    margin-left: 30px;
+   }
+   
+  .Certifications{
+    border-radius: 25px;
+    border: 0.5px solid black;
+    padding: 20px; 
+    width: 900px;
+    height: 150px; 
+  }
+  .Skillset{
+    
+    border-radius: 25px;
+    border: 0.5px solid black;
+    padding: 20px; 
+    width: 900px;
+    height: 150px; 
+  
+  }

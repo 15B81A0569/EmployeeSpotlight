@@ -1,0 +1,15 @@
+
+*{
+  margin:0px;
+  padding:0px;
+ }
+ .b{
+  background-image: url("https://thumbor.forbes.com/thumbor/1280x868/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1048234078%2F960x0.jpg%3Ffit%3Dscale");
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width:100%;
+  margin:0px;
+  background-repeat: no-repeat;
+ }
+ 

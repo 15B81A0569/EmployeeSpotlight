@@ -1,0 +1,66 @@
+
+.body{
+  background-image: url("https://media.glassdoor.com/l/d6/3d/ec/d0/hyderabad-office.jpg");
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width:100%;
+  margin: 0px;
+  background-repeat: no-repeat;
+}
+.login-box
+{
+  position: absolute;
+  margin: 50;
+  height: 600px;
+  width: 380px;
+  background: lightgrey;
+  box-shadow: 2px;
+    
+  }
+.left-box{
+  position: right;
+  top: 0%;
+  left: 0%;
+  box-sizing: border-box;
+  padding: 50px;
+  width: 410px;
+  height: 600px;
+  background: lightgrey;
+  margin-left: 60%;
+  margin-top: 4%;
+  }
+h1{
+  margin: 1px; 
+  font-size: 28px;
+  color: black;
+   
+}
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="date"]
+{
+display: block;
+box-sizing: border-box;
+height: 32px;
+background: #f2f2f2;
+margin-bottom: 20px;
+padding: 5px;
+width: 270px;
+border-bottom: blue;
+align-self: auto;
+ 
+  
+}
+input[type="submit"]
+{
+
+ height: 40px;
+ width: 270px;
+ background: black;
+ color: #f2f2f2;
+ text-transform: uppercase;
+ cursor: pointer;  
+ position: center; 
+} 
