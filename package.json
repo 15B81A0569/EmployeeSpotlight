@@ -24,7 +24,7 @@
     "@material-ui/core": "^4.3.1",
     "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "material": "^0.3.13",
     "rxjs": "~6.5.2",
     "tslib": "^1.9.0",
